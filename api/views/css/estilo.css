@@ -1,0 +1,399 @@
+.titulo h2 {
+  color: #f00;
+}
+.titulo h2 b {
+  color: #91d;
+}
+li b {
+  color: #f50;
+}
+.alumno {
+  color: #a4f;
+}
+.alumno b {
+  color: #040;
+}
+#inicio {
+  text-align: center;
+  align-content: center;
+}
+#inicio-contain {
+  display: inline-block;
+  width: auto;
+  align-content: center;
+  text-align: justify;
+  padding: 5px;
+}
+#menu {
+  align-content: center;
+  text-align: center;
+}
+#menu-contain {
+  display: inline-block;
+  width: auto;
+  text-align: justify;
+  align-content: center;
+  padding: 10px;
+}
+#navegador h3 {
+  color: #43f;
+  animation-name: deslizar;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#cuerpo::after {
+  content: "";
+  background: url(comida.jpeg);
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  size: cover;
+  z-index: -1;
+}
+#pedido_realizar {
+  align-content: center;
+  text-align: center;
+}
+#pedido_cancelar {
+  align-content: center;
+  text-align: center;
+}
+#pedido_realizar-seleccionar {
+  display: inline-block;
+  width: auto;
+  padding: 5px;
+}
+#pedido_realizar-seleccionar h4 {
+  display: flex;
+}
+
+#pedido {
+  align-content: auto;
+}
+.cerrar_sesion {
+  text-align: center;
+  border: red solid 1px;
+}
+.hidden {
+  display: none;
+}
+#gracias {
+  text-align: center;
+  color: #a4f;
+}
+
+.nav {
+  background-color: slateblue;
+}
+
+.nav__li {
+  display: inline-flex;
+  width: 16%;
+  padding: 5px;
+  color: #fff;
+  margin-right: 20px;
+  margin-left: -15px;
+}
+
+.nav__li i {
+  box-sizing: border-box;
+  text-align: right;
+  margin-right: 1px;
+  margin-top: 2px;
+}
+
+.btn {
+  white-space: normal;
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+.btn:hover {
+  color: #bbb;
+  cursor: pointer;
+}
+
+#select_cantidad {
+  width: 42px;
+  display: inline-flex;
+  padding: 2px;
+}
+#delete_cantidad {
+  width: 42px;
+  display: inline-flex;
+  padding: 2px;
+}
+.pedido-hecho {
+  width: 80px;
+}
+.stock {
+  width: 80px;
+  padding: 2.2px;
+}
+
+.listado-añadir {
+  position: relative;
+  width: 65%;
+  border: black solid 1px;
+  display: inline-flex;
+  padding:2px;
+  background-color: #ffb;
+  margin: 2px;
+}
+.listado-cancelar {
+  width: 75%;
+  border: black solid 1px;
+  display: inline-flex;
+  padding:2px;
+  background-color: lightgreen;
+  margin: 2px;
+}
+
+.btn_añadir {
+  float: right;
+  font-family: "Times New Roman", Times, serif;
+  background-color: green;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto;
+}
+.btn_cancelar {
+  float: right;
+  font-family: "Times New Roman", Times, serif;
+  background-color: red;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto;
+}
+
+.btn_finalizar {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: skyblue;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto;
+}
+.btn_reiniciar{
+  float: right;
+  font-family: "Times New Roman", Times, serif;
+  background-color: skyblue;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto;
+}
+.btn_tipo-menu {
+  font-family: "Times New Roman", Times, serif;
+  background-color: royalblue;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto;
+  margin-left: 3px;
+}
+
+.label-cantidad {
+  display: inline-block;
+  border: solid red 5px;
+  width: 40px;
+  position: relative;
+  left: 100%;
+}
+@keyframes deslizar {
+  0% {
+    position: relative;
+    left: 0px;
+    color: red;
+  }
+  15% {
+    color: orange;
+  }
+  30% {
+    color: yellow;
+  }
+  45% {
+    color: green;
+  }
+  60% {
+    color: blue;
+  }
+  75% {
+    color: purple;
+  }
+  100% {
+    position: relative;
+    left: 35%;
+    color: violet;
+  }
+}
+.titulo {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background: url(foodtop.jpg);
+  color: black;
+  text-shadow: 1px 0px 0px white, 0px 1px 0px white, -1px 0px 0px white,
+    0px -1px 0px white;
+  outline: solid black 2px;
+}
+
+.bienvenida {
+  display: block;
+  text-align: center;
+  padding: 50px;
+  font-size: 50px;
+  background: url(foodtop.jpg);
+  color: black;
+  text-shadow: 1px 0px 0px white, 0px 1px 0px white, -1px 0px 0px white,
+    0px -1px 0px white;
+  outline: solid black 2px;
+}
+.contain-fondo {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contain-fondo div {
+  flex: 1;
+  display: flex;
+}
+.contain-fondo div img {
+  outline: 2px solid black;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 2;
+  position: relative;
+  bottom: 45px;
+}
+
+.ref-ingreso {
+  white-space: normal;
+  position: sticky;
+  top: 300px;
+  background-color: gainsboro;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  display: inline-block;
+  width: 35%;
+  z-index: 3;
+  text-align: center;
+  outline: solid black 1px;
+  text-decoration: none;
+}
+
+#inv {
+  outline: none;
+  display: inline-block;
+  color: transparent;
+  width: 30%;
+  background: none;
+  position: sticky;
+  font-size: 40px;
+}
+#ingreso:hover {
+  cursor: pointer;
+  animation-name: ingreso;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#login:hover {
+  cursor: pointer;
+  animation-name: login;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#btn_sesion{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: transparent;
+  color: #93f;
+  cursor: pointer;
+  border: none;
+  width: auto;
+}
+#btn_sesion:hover{
+  text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black,
+    0px -1px 0px black;
+}
+@keyframes ingreso {
+  0% {
+    left: 0px;
+    background-color: yellow;
+  }
+  100% {
+    left: 100px;
+    background-color: orange;
+  }
+}
+@keyframes login {
+  0% {
+    right: 0;
+    background-color: greenyellow;
+  }
+  100% {
+    right: 100px;
+    background-color: green;
+  }
+}
+
+.disabled {
+  position: absolute;
+  border: none !important;
+  color: transparent;
+  background-color: transparent !important;
+  pointer-events: none;
+  cursor: default;
+}
+.reporte_titulo {
+  text-align: center;
+}
+.reporte_fondo {
+  position: static;
+  width: 650px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: url(../css/reporte.jpg);
+  background-size: 140px;
+  background-position: center;
+  color: rgb(0, 17, 255);
+  z-index: 5;
+  outline: solid black 1px;
+  border-radius: 5px;
+  padding: 0;
+}
+.reporte_lista {
+  position: static;
+  outline: solid green 2px;
+  padding: 10px;
+  width: 450px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgb(185, 241, 94);
+  border-radius: 10px;
+  z-index: 7;
+}
