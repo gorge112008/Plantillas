@@ -31,16 +31,5 @@
         "category": "Food",
         "thumbnail": "https://finvero.com/assets/img/shoppers/products/Not_found.png ",
         "id": 6
-    },
-    {
-        "tittle": "jorge",
-        "description": "Loco",
-        "code": 131,
-        "price": 324,
-        "status": true,
-        "stock": 23,
-        "category": "Food",
-        "thumbnail": "https://finvero.com/assets/img/shoppers/products/Not_found.png ",
-        "id": 7
     }
 ]
